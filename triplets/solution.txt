@@ -1,0 +1,70 @@
+['t', 'u', 'p'],
+['w', 'h', 'i'],
+['t', 's', 'u'],
+['a', 't', 's'],
+['h', 'a', 'p'],
+['t', 'i', 's'],
+['w', 'h', 's']
+
+first is w because it didn't exist in [1:] in any triplet
+
+['t', 'u', 'p'],
+['h', 'i'],
+['t', 's', 'u'],
+['a', 't', 's'],
+['h', 'a', 'p'],
+['t', 'i', 's'],
+['h', 's']
+
+second is 'h' because it didn't exist in [1:] in any triplet
+
+['t', 'u', 'p'],
+['i'],
+['t', 's', 'u'],
+['a', 't', 's'],
+['a', 'p'],
+['t', 'i', 's'],
+['s']
+
+third is 'a' for the same reasons
+
+['t', 'u', 'p'],
+['i'],
+['t', 's', 'u'],
+['t', 's'],
+['p'],
+['t', 'i', 's'],
+['s']
+
+fourth is 't'
+
+['u', 'p'],
+['i'],
+['s', 'u'],
+['s'],
+['p'],
+['i', 's'],
+['s']
+
+fifth is i:
+
+['u', 'p'],
+['s', 'u'],
+['s'],
+['p'],
+['s'],
+['s']
+
+sixth: 's'
+
+['u', 'p'],
+['u'],
+['p'],
+
+u
+
+[p]
+
+get two set - first row | next rows
+
+first_row - next_rows = next_symbol
